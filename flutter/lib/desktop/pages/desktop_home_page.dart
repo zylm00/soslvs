@@ -191,6 +191,8 @@ class _DesktopHomePageState extends State<DesktopHomePage>
                 border: InputBorder.none,
                 isDense: true,
                 contentPadding: EdgeInsets.zero,
+                filled: false,
+                fillColor: Colors.transparent,
               ),
               style: const TextStyle(
                 fontSize: 20,
@@ -278,6 +280,8 @@ class _DesktopHomePageState extends State<DesktopHomePage>
                       border: InputBorder.none,
                       isDense: true,
                       contentPadding: EdgeInsets.zero,
+                      filled: false,
+                      fillColor: Colors.transparent,
                     ),
                     style: const TextStyle(
                       fontSize: 15,
